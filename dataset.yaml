@@ -1,0 +1,9 @@
+# train and val data
+train: ../yolov5/dataset/images/train/
+val: ../yolov5/dataset/images/val/
+
+# number of classes
+nc: 3
+
+# class names
+names: ['Air Vehicle', 'Candidate Land Vehicle', 'Land Vehicle']
